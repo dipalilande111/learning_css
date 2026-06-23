@@ -79,7 +79,7 @@ h3{
             text-align: center;
         }
         .t_align_right{
-            test-align:right;
+            text-align:right
         }
         .t_decoration_overline{
             text-decoration:overline ;
@@ -88,7 +88,7 @@ h3{
             text-decoration:underline ;
         }
         .t_decoration_linethrougt{
-            text-decoratio:linethrough ;
+            text-decoration:linethrough ;
         }
         .t_indent{
             text-indent: 80px;
@@ -116,26 +116,41 @@ h3{
             box-shadow: 5px 6px 10px red;
         }
         .d_shadow{
-            width: 400px;
+            width: 300px;
             height: 200px;
             filter:drop-shadow(6px 6px 6px red);
         }
         .d_shadow2{
-             width: 400px;
+             width: 300px;
             height: 200px;
             filter:drop-shadow(6px 6px 6px blue);
 
         }
         .br_properties{
-            border: 15px solid blue;
-            border-radius: 40px;
-            border-top:15px black;
-            border-right:15 blue;
-            border-bottom: 15 red;
+            border: 15px solid rgb(5, 5, 54);
+            border-radius:40px;
+            border-bottom-color: rgb(79, 79, 13);
+            border-top-color: red;
+            border-left-color: rgb(160, 19, 42);
+        
+            
+        }
+        .br_properties2{
+            border: 15px dotted rgb(36, 36, 148);
+            border-radius:40px;
+            border-top-color:20px rgb(221, 15, 49);
+            border-right-color:30px rgb(159, 87, 140);
+        }
+        .br_properties3{
+            border: 15px groove rgb(49, 3, 3);
+        }
+        .br_properties4{
+            border: 3px solid blue;
+            font-family: Arial, Helvetica, sans-serif;
         }
         .box_model{
             border: 4px solid red;
-            padding: 30px;
+            padding : 30px;
             margin: 40px;
 
         }
@@ -151,6 +166,84 @@ h3{
             margin: 50px;
 
         }
+        .font_family1{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .font_family2{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .font_family3{
+            font-family: fantasy;
+        }
+        .font_family4{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .font_family5{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+        }
+        .font_properties{
+            font-size: 30px;
+            font-weight: 900;
+            font-style: italic;
+        }
+        .box{
+            width: 200px;
+            height: 150px;
+            border: 3px solid red;
+            background-color: gray;
+            margin-bottom: 10px;
+        
+        }
+        .box1{
+            position: static;
+        }
+        .box2{
+            position: relative;
+            left: 250px;
+            top: 40px;
+        }
+        .box3{
+            position: absolute;
+            left: 300px;
+            top: 20px;
+        }
+        .box4{
+            position: sticky;
+            top: 10px;
+
+
+        }
+        .box5{
+            position: fixed;
+            bottom: 0px;
+            right: 20px;
+
+        }
+        .flex-items{
+            width: 150px;
+            height: 100px;
+            background-color: blueviolet;
+            border: 3px solid red;
+            border-radius: 30px ;
+            margin: 20px;
+            padding: 40px;
+            color: white;
+            font-size: 30px;
+            justify-content:center;
+            align-items: center;
+        }
+         .flex-container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+             
+         }
+         
+
+    
+        
+
 
 
 
